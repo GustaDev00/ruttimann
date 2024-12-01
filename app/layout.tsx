@@ -7,7 +7,6 @@ import { StyledComponentsRegistry } from "@/lib/registry";
 import { theme } from "@/styles/theme";
 import { GlobalStyles } from "@/styles/global";
 import { GSAPInitializer } from "@/components/atoms/gsap-initializer";
-import { Cursor } from "@/components/organisms/Cursor";
 import Nav from "@/shared/nav";
 
 const RootLayout = ({
@@ -25,7 +24,7 @@ const RootLayout = ({
             <Nav />
             <main>
               <Suspense>
-                <Cursor>{children}</Cursor>
+                {children}
               </Suspense>
             </main>
           </ThemeProvider>

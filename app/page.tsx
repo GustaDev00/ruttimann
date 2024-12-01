@@ -3,8 +3,8 @@ import { type ReactNode } from "react";
 import { HomeTemplate } from "@/templates/home";
 
 export const metadata: Metadata = {
-  title: "Fiber web - Creative Webseiten",
-  description: "Creative Webseiten Effektives Marketing Smarte KI Lösungen",
+  title: "W & M Rüttimann",
+  description: "W & M Rüttimann",
 };
 
 const Home = (): ReactNode => {
