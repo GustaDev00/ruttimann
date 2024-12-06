@@ -6,7 +6,7 @@ const { desktop1024, isMobileOrTabletVertical, desktop1920 } = viewportsBase;
 
 export const GlobalStyles = createGlobalStyle`
   * {
-    font-family: var(--instrumentSans);
+    font-family: var(--clarity);
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -52,7 +52,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: #151515;
+    background: #FCFFFC;
     position: relative;
   }
 
@@ -76,7 +76,6 @@ export const GlobalStyles = createGlobalStyle`
     border: none;
     padding: 0;
     font: inherit;
-    cursor: none;
     outline: inherit;
   }
 

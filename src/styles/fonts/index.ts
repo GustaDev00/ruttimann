@@ -1,5 +1,3 @@
-import { hankenGrotesk } from "./_hanken";
-import { instrumentSans } from "./_instrument";
-import { manrope } from "./_manrope";
+import { clarityCity } from "./_clarity";
 
-export const fontNames = `${instrumentSans.variable} ${hankenGrotesk.variable} ${manrope.variable}`;
+export const fontNames = `${clarityCity.variable}`;
